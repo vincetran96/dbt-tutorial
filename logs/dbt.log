@@ -1,0 +1,66 @@
+
+
+============================== 2022-03-27 16:26:25.781072 | dc19baf6-ca9f-450f-a1f6-3adcbadceaf1 ==============================
+16:26:25.781072 [info ] [MainThread]: Running with dbt=1.0.4
+16:26:25.781633 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/vince/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+16:26:25.781876 [debug] [MainThread]: Tracking: tracking
+16:26:25.833788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f96400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f82a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f985b0>]}
+16:26:25.837176 [info ] [MainThread]: Creating dbt configuration folder at /Users/vince/.dbt
+16:26:40.684926 [debug] [MainThread]: Starter project path: /Users/vince/dbt-tutorial/env/lib/python3.9/site-packages/dbt/include/starter_project
+16:26:46.918466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109fb3af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109fb3d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109fb3e20>]}
+
+
+============================== 2022-03-27 16:26:52.239211 | 3cb43225-6974-4128-9af2-1a2364e350e4 ==============================
+16:26:52.239211 [info ] [MainThread]: Running with dbt=1.0.4
+16:26:52.239698 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/vince/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+16:26:52.239923 [debug] [MainThread]: Tracking: tracking
+16:26:52.261216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc57460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc42a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc56cd0>]}
+16:26:59.113296 [debug] [MainThread]: Starter project path: /Users/vince/dbt-tutorial/env/lib/python3.9/site-packages/dbt/include/starter_project
+16:31:30.942582 [info ] [MainThread]: Profile dbt_tutorial_bigquery written to /Users/vince/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+16:31:30.944108 [info ] [MainThread]: 
+Your new dbt project "dbt_tutorial_bigquery" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+16:31:30.944876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc42a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc57490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fc57d90>]}
+
+
+============================== 2022-03-27 16:38:20.837323 | 8d3139ac-1b28-4ca9-accb-5803f4ee0cb2 ==============================
+16:38:20.837323 [info ] [MainThread]: Running with dbt=1.0.4
+16:38:20.838366 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/vince/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+16:38:20.838724 [debug] [MainThread]: Tracking: tracking
+16:38:20.870100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051d38e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051ae910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051b08b0>]}
+16:38:21.479545 [debug] [MainThread]: Executing "git --help"
+16:38:21.492175 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+16:38:21.493226 [debug] [MainThread]: STDERR: "b''"
+16:38:21.508739 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+16:38:21.511578 [debug] [MainThread]: Opening a new connection, currently in state init
+16:38:21.516886 [debug] [MainThread]: On debug: select 1 as id
+16:38:22.882029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1037e0550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f1db50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f1daf0>]}
+16:38:23.285864 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-03-27 16:38:35.013982 | b7615b0e-2b41-4c28-afcd-cbf1baf8bb3b ==============================
+16:38:35.013982 [info ] [MainThread]: Running with dbt=1.0.4
+16:38:35.014516 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/vince/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+16:38:35.014749 [debug] [MainThread]: Tracking: tracking
+16:38:35.041538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f3908e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f36b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f36d8b0>]}
+16:38:35.561916 [debug] [MainThread]: Executing "git --help"
+16:38:35.572485 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+16:38:35.573576 [debug] [MainThread]: STDERR: "b''"
+16:38:35.583519 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+16:38:35.585464 [debug] [MainThread]: Opening a new connection, currently in state init
+16:38:35.591777 [debug] [MainThread]: On debug: select 1 as id
+16:38:36.906149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1100971f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110097be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110097820>]}
+16:38:37.196345 [debug] [MainThread]: Connection 'debug' was properly closed.
